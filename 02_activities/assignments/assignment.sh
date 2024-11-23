@@ -1,6 +1,5 @@
 #!/bin/bash
 set -x
-
 ############################################
 # DSI CONSULTING INC. Project setup script #
 ############################################
@@ -21,7 +20,7 @@ unzip rawdata.zip
 # Complete assignment here
 
 # 1. Create a directory named data
-
+mkdir data
 # 2. Move the ./rawdata directory to ./data/raw
 
 # 3. List the contents of the ./data/raw directory
